@@ -15,15 +15,15 @@
 
 ## Dictionaries 
 
-capitals = {'France': 'Paris', 'England':'London', 'USA':'D.C.', 'Mexico':'Mexico City','Spain': 'Madrid', 
-    'Ireland':'Dublin', 'Greece': 'Athens', 'Italy':'Rome'}
+# capitals = {'France': 'Paris', 'England':'London', 'USA':'D.C.', 'Mexico':'Mexico City','Spain': 'Madrid', 
+#     'Ireland':'Dublin', 'Greece': 'Athens', 'Italy':'Rome'}
 
 #capitals['Germany] ## grab a value
 #capitals.get('Germany') ## grab a value
 
 # capitals['South Korea'] = 'Seoul' ## add a new entry
 
-print(capitals)
+# print(capitals)
 # capitals.keys() # prints all the keys 
 # capitals.values() ## prints all the values
 # capitals.items() ## prints everything out into tuples
@@ -43,4 +43,8 @@ print(capitals)
 list1 = [1, 2, 4, 6, 7, 28, 12, 33]
 list2 = ['a', 'b', 'c', 'd']
 
-joined = list(zip(list1, list2))
+joined = list(zip(list1, list2)) # zip has its on type. zip indexes both items together, so index 1 in both lists will still be index 1
+print(joined)
+
+i,j = zip(*joined)
+print(joined[0])
