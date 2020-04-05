@@ -1,0 +1,14 @@
+prefix=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/env
+exec_prefix=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/env
+libdir=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/env/lib
+includedir=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 22.1.16
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2
