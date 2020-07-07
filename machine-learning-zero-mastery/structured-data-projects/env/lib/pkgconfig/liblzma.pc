@@ -5,15 +5,15 @@
 # You can do whatever you want with this file.
 #
 
-prefix=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env
-exec_prefix=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env
-libdir=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib
-includedir=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include
+prefix=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env
+exec_prefix=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env
+libdir=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib
+includedir=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include
 
 Name: liblzma
 Description: General purpose data compression library
 URL: https://tukaani.org/xz/
-Version: 5.2.4
+Version: 5.2.5
 Cflags: -I${includedir}
 Libs: -L${libdir} -llzma
-Libs.private: -D_THREAD_SAFE -pthread 
+Libs.private: -Qunused-arguments -pthread -lpthread

@@ -1,4 +1,4 @@
-#!/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/bin/python3.8
+#!/usr/bin/env python3.8
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in

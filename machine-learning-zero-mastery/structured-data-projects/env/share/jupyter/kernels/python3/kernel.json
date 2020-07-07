@@ -1,0 +1,11 @@
+{
+ "argv": [
+  "/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3",
+ "language": "python"
+}

@@ -1,14 +1,14 @@
 # tcl pkg-config source file
 
-prefix=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env
-exec_prefix=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env
-libdir=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib
+prefix=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env
+exec_prefix=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env
+libdir=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib
 includedir=${prefix}/include
 
 Name: Tool Command Language
 Description: Tcl is a powerful, easy-to-learn dynamic programming language, suitable for a wide range of uses.
 URL: http://www.tcl.tk/
-Version: 8.6.8
+Version: 8.6.10
 Requires.private: zlib >= 1.2.3
 Libs: -L${libdir} -ltcl8.6 -ltclstub8.6
 Libs.private:  -lz  -lpthread -framework CoreFoundation 

@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-# Copyright 2000-2018 by
+# Copyright (C) 2000-2020 by
 # David Turner, Robert Wilhelm, and Werner Lemberg.
 #
 # This file is part of the FreeType project, and may only be used, modified,
@@ -35,17 +35,17 @@ if test $? -eq 0 ; then
   dynamic_libs=`/usr/local/bin/pkg-config --libs freetype2`
   static_libs=`/usr/local/bin/pkg-config --static --libs freetype2`
 else
-  prefix="/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env"
-  exec_prefix="/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env"
+  prefix="/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env"
+  exec_prefix="/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env"
 
-  includedir="/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include"
-  libdir="/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib"
+  includedir="/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include"
+  libdir="/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib"
 
-  version=22.1.16
+  version=23.2.17
 
   cflags="-I${SYSROOT}$includedir/freetype2"
   dynamic_libs="-lfreetype"
-  static_libs="-lfreetype -L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib -lz -L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib -lpng16 -lz"
+  static_libs="-lfreetype -L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib -lz -L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib -lpng16 -lz"
   if test "${SYSROOT}$libdir" != "/usr/lib"   &&
      test "${SYSROOT}$libdir" != "/usr/lib64" ; then
     libs_L="-L${SYSROOT}$libdir"

@@ -8,17 +8,17 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/bin',
- 'BINLIBDEST': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/python3.8',
+ 'BINDIR': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/bin',
+ 'BINLIBDEST': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/python3.8',
  'BLDLIBRARY': 'libpython3.8.a',
  'BLDSHARED': 'powerpc64le-conda_cos7-linux-gnu-gcc -pthread -shared -Wl,-O2 '
               '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-              '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-              '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
+              '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+              '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
               '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
               '-Wl,-z,now '
-              '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-              '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
+              '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+              '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
               '   '
               '',
  'BUILDEXE': '',
@@ -43,26 +43,26 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_CFLAGS': '-mcpu=power8 -mtune=power8 -mpower8-fusion '
                      '-mpower8-vector -ftree-vectorize -fPIC '
                      '-fstack-protector-strong -fno-plt -O2 '
-                     '-fdebug-prefix-map=/opt/conda/conda-bld/python_1512347718438/work=/usr/local/src/conda/python-3.8.2 '
-                     '-fdebug-prefix-map=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env=/usr/local/src/conda-prefix '
+                     '-fdebug-prefix-map=/opt/conda/conda-bld/python_1512347718438/work=/usr/local/src/conda/python-3.8.3 '
+                     '-fdebug-prefix-map=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env=/usr/local/src/conda-prefix '
                      '-pipe    '
                      ' ',
  'CONFIGURE_CFLAGS_NODIST': '-std=c99 -Wextra -Wno-unused-result '
                             '-Wno-unused-parameter '
                             '-Wno-missing-field-initializers',
  'CONFIGURE_CPPFLAGS': '-D_FORTIFY_SOURCE=2 -O2 '
-                       '-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include',
+                       '-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include',
  'CONFIGURE_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                       '-Wl,-z,now '
-                      '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-                      '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib',
- 'CONFIG_ARGS': "'--prefix=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env' "
+                      '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+                      '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib',
+ 'CONFIG_ARGS': "'--prefix=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env' "
                 "'--build=powerpc64le-conda_cos7-linux-gnu' "
                 "'--host=powerpc64le-conda_cos7-linux-gnu' '--enable-ipv6' "
                 "'--with-ensurepip=no' '--with-computed-gotos' "
                 "'--with-system-ffi' '--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include' "
-                "'--with-tcltk-libs=-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib "
+                "'--with-tcltk-includes=-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include' "
+                "'--with-tcltk-libs=-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib "
                 "-ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' "
                 "'--disable-shared' "
                 "'build_alias=powerpc64le-conda_cos7-linux-gnu' "
@@ -71,19 +71,19 @@ build_time_vars = {'ABIFLAGS': '',
                 "'CFLAGS=-mcpu=power8 -mtune=power8 -mpower8-fusion "
                 '-mpower8-vector -ftree-vectorize -fPIC '
                 '-fstack-protector-strong -fno-plt -O2 '
-                '-fdebug-prefix-map=/opt/conda/conda-bld/python_1512347718438/work=/usr/local/src/conda/python-3.8.2 '
-                '-fdebug-prefix-map=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env=/usr/local/src/conda-prefix '
+                '-fdebug-prefix-map=/opt/conda/conda-bld/python_1512347718438/work=/usr/local/src/conda/python-3.8.3 '
+                '-fdebug-prefix-map=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env=/usr/local/src/conda-prefix '
                 '-pipe    '
                 " ' 'LDFLAGS=-Wl,-O2 "
                 '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-                '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-                "-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib' "
+                '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+                "-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib' "
                 "'CPPFLAGS=-D_FORTIFY_SOURCE=2 -O2 "
-                "-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include' "
-                "'CPP=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/bin/powerpc64le-conda_cos7-linux-gnu-cpp' "
-                "'PKG_CONFIG_PATH=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/pkgconfig'",
- 'CONFINCLUDEDIR': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include',
- 'CONFINCLUDEPY': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include/python3.8',
+                "-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include' "
+                "'CPP=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/bin/powerpc64le-conda_cos7-linux-gnu-cpp' "
+                "'PKG_CONFIG_PATH=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/pkgconfig'",
+ 'CONFINCLUDEDIR': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include',
+ 'CONFINCLUDEPY': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include/python3.8',
  'COREPYTHONPATH': ':',
  'COVERAGE_INFO': '/opt/conda/conda-bld/python_1512347718438/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/opt/conda/conda-bld/python_1512347718438/work/build-static/lcov-report',
@@ -92,17 +92,17 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/opt/conda/conda-bld/python_1512347718438/work/Include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include '
+             '-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include',
+             '-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include',
  'CXX': 'powerpc64le-conda_cos7-linux-gnu-c++ -pthread',
- 'DESTDIRS': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env '
-             '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-             '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/python3.8 '
-             '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/python3.8/lib-dynload',
- 'DESTLIB': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/python3.8',
+ 'DESTDIRS': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env '
+             '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+             '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/python3.8 '
+             '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/python3.8/lib-dynload',
+ 'DESTLIB': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/python3.8',
  'DESTPATH': '',
- 'DESTSHARED': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/python3.8/lib-dynload',
+ 'DESTSHARED': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/python3.8/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -516,12 +516,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'powerpc64le-conda_cos7-linux-gnu',
- 'INCLDIRSTOMAKE': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include '
-                   '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include '
-                   '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include/python3.8 '
-                   '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include/python3.8',
- 'INCLUDEDIR': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include',
- 'INCLUDEPY': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include/python3.8',
+ 'INCLDIRSTOMAKE': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include '
+                   '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include '
+                   '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include/python3.8 '
+                   '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include/python3.8',
+ 'INCLUDEDIR': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include',
+ 'INCLUDEPY': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include/python3.8',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -532,34 +532,34 @@ build_time_vars = {'ABIFLAGS': '',
  'IO_OBJS': '\\',
  'LDCXXSHARED': 'powerpc64le-conda_cos7-linux-gnu-c++ -pthread -shared',
  'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-            '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
+            '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+            '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
             '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-            '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
+            '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+            '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
             '   ',
  'LDLAST': '',
  'LDLIBRARY': 'libpython3.8.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'powerpc64le-conda_cos7-linux-gnu-gcc -pthread -shared -Wl,-O2 '
              '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-             '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-             '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
+             '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+             '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
              '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
              '-Wl,-z,now '
-             '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-             '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
+             '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+             '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
              '   ',
  'LDVERSION': '3.8',
  'LIBC': '',
- 'LIBDEST': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/python3.8',
- 'LIBDIR': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib',
- 'LIBFFI_INCLUDEDIR': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include',
+ 'LIBDEST': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/python3.8',
+ 'LIBDIR': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib',
+ 'LIBFFI_INCLUDEDIR': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include',
  'LIBM': '-lm',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/pkgconfig',
- 'LIBPL': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/python3.8/config-3.8-powerpc64le-linux-gnu',
+ 'LIBPC': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/pkgconfig',
+ 'LIBPL': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/python3.8/config-3.8-powerpc64le-linux-gnu',
  'LIBRARY': 'libpython3.8.a',
  'LIBRARY_OBJS': '\\',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
@@ -577,13 +577,13 @@ build_time_vars = {'ABIFLAGS': '',
  'MACHDEP': 'linux',
  'MACHDEPPATH': ':',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib/python3.8',
+ 'MACHDESTLIB': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib/python3.8',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAINCC': 'powerpc64le-conda_cos7-linux-gnu-gcc -pthread',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/opt/conda/conda-bld/python_1512347718438/work/Modules/makesetup',
- 'MANDIR': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/share/man',
+ 'MANDIR': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODLIBS': '',
  'MODNAMES': '_thread posix errno pwd _sre _codecs _weakref _functools '
@@ -682,25 +682,25 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IPython -I. '
                    '-I/opt/conda/conda-bld/python_1512347718438/work/Include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include '
+                   '-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include  '
+                   '-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include  '
                    '-DPy_BUILD_CORE',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/opt/conda/conda-bld/python_1512347718438/work/Include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include '
+                '-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include',
+                '-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-               '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
+               '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+               '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
                '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
-               '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
+               '-Wl,-rpath,/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
+               '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
                '   '
                '',
  'Py_DEBUG': 0,
@@ -712,7 +712,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib',
+ 'SCRIPTDIR': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SGI_ABI': '',
  'SHELL': '/bin/sh',
@@ -748,8 +748,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SYSLIBS': '-lm',
  'SYS_SELECT_WITH_SYS_TIME': 1,
  'TANH_PRESERVES_ZERO_SIGN': 1,
- 'TCLTK_INCLUDES': '-I/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/include',
- 'TCLTK_LIBS': '-L/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/lib '
+ 'TCLTK_INCLUDES': '-I/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include',
+ 'TCLTK_LIBS': '-L/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -782,7 +782,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/opt/conda/conda-bld/python_1512347718438/work/build-static',
  'abs_srcdir': '/opt/conda/conda-bld/python_1512347718438/work',
- 'datarootdir': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env/share',
- 'exec_prefix': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env',
- 'prefix': '/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env',
+ 'datarootdir': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/share',
+ 'exec_prefix': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env',
+ 'prefix': '/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env',
  'srcdir': '/opt/conda/conda-bld/python_1512347718438/work'}

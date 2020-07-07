@@ -1,11 +1,11 @@
-prefix=/Users/andre22/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/heart-disease-project/env
+prefix=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
-toolexeclibdir=${exec_prefix}/lib
-includedir=${prefix}/include
+toolexeclibdir=${libdir}
+includedir=/Users/andrewilliams/Documents/Dev/Complete-ML-DS-Guide/machine-learning-zero-mastery/structured-data-projects/env/include
 
 Name: libffi
 Description: Library supporting Foreign Function Interfaces
-Version: 3.2.1
+Version: 3.3
 Libs: -L${toolexeclibdir} -lffi
 Cflags: -I${includedir}
