@@ -33,7 +33,7 @@ def anomalies_rolling_std(x, y, window_size, sigma=1.0):
 # end of anomalies_rolling_std
 
 # df takes first column DateTime, second values and third color
-def save_plot(df, window_size, file_name_to_save = None, title =''):
+def save_plot(df, window_size, file_name_to_save=None, title =''):
     #
     text_xlabel=df.columns[0]; text_ylabel=df.columns[1]; color_label = df.columns[2]
     df[color_label] = df[color_label].astype('str')
