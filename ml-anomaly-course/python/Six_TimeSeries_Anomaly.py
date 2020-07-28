@@ -106,3 +106,4 @@ title = 'Overall plot: Normal in black, Anomaly in red and Moving Average in gre
 # Save the plot
 file_name = ''.join(['./images/', 'anomaly_movavg_rolling_std_Passengers.png'])
 save_plot(df, window_size, file_name,title)
+
