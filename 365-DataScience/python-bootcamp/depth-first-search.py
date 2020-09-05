@@ -1,3 +1,5 @@
+# Traverse a tree using depth first search 
+
 class Node:
     def __init__(self, name): 
         self.name = name
@@ -14,4 +16,6 @@ class Node:
             child.depthFirstSearch(array)
 
         return array 
+
+
 
